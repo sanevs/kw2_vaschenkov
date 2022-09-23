@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.kw1_display_text.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_info"
+        android:icon="@android:drawable/btn_dialog"
+        android:orderInCategory="102"
+        android:title="@string/action_info" />
+    <item
+        android:id="@+id/app_bar_switch"
+        android:orderInCategory="103"
+        android:title="Sw"
+        app:actionLayout="@layout/switch_item" />
+</menu>
